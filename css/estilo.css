@@ -4,24 +4,23 @@ body {
 }
 
 .container {
-  max-width: 90%; /* antes 95% */
+  max-width: 90%; 
   margin: 0 auto;
-  border: 2px solid black; /* borda mais fina */
+  border: 2px solid black; 
   padding: 1%;
   box-sizing: border-box;
 }
 
 .header {
   width: 100%;
-  height: 6vh; /* antes 8vh */
-  min-height: 50px; /* antes 60px */
+  height: 6vh; 
   border: 2px solid black;
   margin-bottom: 1%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  font-size: 1.5rem; /* antes 1.8rem */
+  
 }
 
 .content {
@@ -63,12 +62,12 @@ body {
   object-fit: cover;
 }
 
-/* Media Queries para responsividade */
+
 
 @media (max-width: 900px) {
   .side-left,
   .side-right {
-    display: none; /* esconder colunas laterais */
+    display: none; 
   }
 
   .middle {
@@ -82,7 +81,6 @@ body {
     aspect-ratio: 1 / 1;
   }
 }
-
 @media (max-width: 600px) {
   .header {
     font-size: 1.2rem;
